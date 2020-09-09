@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>レコビル</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<!-- OGP -->
+<meta property="og:title" content="レコビル">
+<meta property="og:url" content="">
+<meta property="og:description" content="レコビル">
+<meta property="og:site_name" content="レコビル">
+<meta property="og:type" content="website">
+
+<!-- CSS -->
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:500&display=swap" rel="stylesheet">
+<link href="../assets/css/slick.css" rel="stylesheet" type="text/css" media="all">
+<link href="../assets/css/common.css" rel="stylesheet" type="text/css" media="all">
+<link href="../assets/css/style.css" rel="stylesheet" type="text/css" media="all">
+
+<!--javascript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.3/ofi.min.js"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/script.js"></script>
+
+</head>
+
+
+<body class="form page">
+  <!-- header -->
+  <header class="l-header" role="banner">
+  <div class="l-header__inner">
+    <div class="logoArea">
+      <h1 class="site__logo">
+        <a href="/"><img src="../assets/img/common/logo.png" alt="レコビル" width="260"></a>
+      </h1>
+    </div>
+    <!-- <nav class="l-navArea">
+      <ul class="gnav">
+        <li><a href="/search_house/">■ 空き家を探す</a></li>
+        <li><a href="/search_building/">■ 好みの建物を探す</a></li>
+        <li><a href="/person/">■ 建築家の情報を見る</a></li>
+        <li><a href="/mypage/">■ マイページ</a></li>
+        <li><a href="/info/">■ 記事を読む</a></li>
+      </ul>
+    </nav>
+  </div> -->
+</header>
+
+
+  <!-- content start -->
+  <div class="l-content">
+    <main class="l-main" role="main">
+      <section class="contact-index">
+        <h2 class="c-title">新規登録</h2>
+        <form>
+          <div class="item">
+            <label>名前<sup>※</sup></label>
+            <input required type="text" name="name" placeholder="">
+          </div>
+          <div class="item">
+            <label>ユーザー名<sup>※</sup></label>
+            <input required type="text" name="user" placeholder="">
+          </div>
+          <div class="item radio__list">
+            <label>性別<sup>※</sup></label>
+            <div class="list__wrap">
+              <label>
+                <input required type="radio" name="radio" class="has-input">
+                <span class="c-radio--replace">男性</span>
+              </label>
+              <label>
+                <input required type="radio" name="radio" class="has-input">
+                <span class="c-radio--replace">女性</span>
+              </label>
+              <label>
+                <input required type="radio" name="radio" class="has-input">
+                <span class="c-radio--replace">その他</span>
+              </label>
+            </div>
+          </div>
+          <div class="item">
+            <label class="u-flex">居住地<sup>※</sup></label>
+            <div class="flex">
+              <div class="flex_item">
+                <input required type="text" name="address" placeholder="">
+              </div>
+              <div class="flex_item">
+                <input required type="text" name="address_2" placeholder="">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <label>誕生日<sup>※</sup></label>
+            <input required type="text" name="birthday" placeholder="">
+          </div>
+          <div class="item">
+            <label>職業<sup>※</sup></label>
+            <input required type="text" name="profession" placeholder="">
+          </div>
+          <div class="item">
+            <label>メールアドレス<sup>※</sup></label>
+            <input required type="email" name="mail" placeholder="">
+          </div>
+          <div class="item">
+            <label>コメント</label>
+            <textarea name="comment" rows="4"></textarea>
+          </div>
+
+          <div class="button__Area">
+            <button class="send" type="button">登録する</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+  </div><!-- /.l-content end -->
+
+</body>
+
+</html>
